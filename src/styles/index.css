@@ -1,0 +1,135 @@
+.filter__container{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter__buttons{
+    display: flex;
+    gap: 32px;
+}
+
+.search__container{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.main__container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+
+   /* display: flex;
+    flex-wrap: wrap;
+    gap: 32px;*/
+}
+
+.list__item{
+    padding: 18px;
+    border-radius: var(--radius);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 290px;
+    margin-left: 32px;
+}
+
+.list__item > figure > figcaption{
+    margin-top: 64px;
+}
+
+.list__item > figure > img{
+    width: 200px;
+    height: 180px;
+    margin-right: 150px;
+}
+
+.list__item > ol{
+    display: grid;
+    align-self: flex-start;
+    list-style: decimal;
+    padding-right:400px ;
+}
+
+.list__item > figcaption{
+    align-self: flex-start;
+    padding-left: 32px;
+}
+
+.ist__item > button{
+    font-size: 10px;
+    padding: 7px 13px;
+    align-self: flex-end;
+    margin-left: 200px;
+}
+
+.cart_container{
+    width: 290px;
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart__header{
+
+    background-color: var(--primary);
+    color: var(--text-secondary);
+    width: 190px;
+    height: 50px;
+    border-radius: var(--radius-cart);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.cart__header >img{
+    width: 18px;
+    height: 140px;
+
+}
+
+.cart__header >img{
+font-size: 20px;
+}
+
+.cart__empty{
+text-align: center;
+margin-top: -100px;
+margin-left: -270px;
+}
+
+.cart__figcaption{
+    margin-left: -80px;
+    margin-top: -8px;
+}
+
+.list__ol{
+    margin-left: -49px;
+    margin-top: -8px;
+}
+
+.cart__button{
+    margin-left: -40px;
+    margin-top: -85px;
+    background-color: #00008B;
+    color: white;
+}
+
+
+
+
+
+
